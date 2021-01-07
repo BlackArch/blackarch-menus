@@ -177,7 +177,7 @@ gen() {
     desc=$(echo "$pkginfo" | grep Description | cut -d':' -f 2 | sed 's/^ //g')
     groups=$(get_groups "$pkginfo")
 
-    if [ -z $groups ]; then
+    if [[ ! ${groups[@]} ]]; then
       continue
     fi
 
@@ -197,17 +197,17 @@ EOF
   done
 }
 
-rm() {
+rem() {
   for package in "${packages[@]}"; do
-    if [[ -f "/usr/share/applications/ba-${package}" ]]; then
-      rm -f "/usr/share/applications/ba-${package}"
+    if [[ -f "/usr/share/applications/ba-${package}.desktop" ]]; then
+      rm -f "/usr/share/applications/ba-${package}.desktop"
     fi
   done
 }
 
 case $1 in
 gen) gen ;;
-rm) rm ;;
+rem) rem ;;
 *)
   exit 2
   ;;
