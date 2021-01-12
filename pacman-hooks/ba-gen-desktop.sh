@@ -172,7 +172,7 @@ get_desc() {
 
 gen() {
   for package in "${packages[@]}"; do
-    pkginfo=$(pacman -Si "blackarch/$package")
+    pkginfo=$(pacman -Si "blackarch/$package" 2>/dev/null)
     package=$(echo "$pkginfo" | grep Name | cut -d':' -f 2 | sed 's/^ //g')
     desc=$(echo "$pkginfo" | grep Description | cut -d':' -f 2 | sed 's/^ //g')
     groups=$(get_groups "$pkginfo")
