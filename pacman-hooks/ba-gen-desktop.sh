@@ -13,151 +13,151 @@ get_groups() {
   for group in $groups; do
     case "$group" in
     blackarch-anti-forensic)
-      category="${category} X-BlackArch-Anti-Forensic;"
+      category="$category X-BlackArch-Anti-Forensic;"
       ;;
     blackarch-automation)
-      category="${category} X-BlackArch-Automation;"
+      category="$category X-BlackArch-Automation;"
       ;;
     blackarch-automobile)
-      category="${category} X-BlackArch-Automobile;"
+      category="$category X-BlackArch-Automobile;"
       ;;
     blackarch-backdoor)
-      category="${category} X-BlackArch-Backdoor;"
+      category="$category X-BlackArch-Backdoor;"
       ;;
     blackarch-binary)
-      category="${category} X-BlackArch-Binary;"
+      category="$category X-BlackArch-Binary;"
       ;;
     blackarch-bluetooth)
-      category="${category} X-BlackArch-Bluetooth;"
+      category="$category X-BlackArch-Bluetooth;"
       ;;
     blackarch-Code-audit)
-      category="${category} X-BlackArch-Code-Audit;"
+      category="$category X-BlackArch-Code-Audit;"
       ;;
     blackarch-cracker)
-      category="${category} X-BlackArch-Cracker;"
+      category="$category X-BlackArch-Cracker;"
       ;;
     blackarch-crypto)
-      category="${category} X-BlackArch-Crypto;"
+      category="$category X-BlackArch-Crypto;"
       ;;
     blackarch-database)
-      category="${category} X-BlackArch-Database;"
+      category="$category X-BlackArch-Database;"
       ;;
     blackarch-debugger)
-      category="${category} X-BlackArch-Debugger;"
+      category="$category X-BlackArch-Debugger;"
       ;;
     blackarch-decompiler)
-      category="${category} X-BlackArch-Decompiler;"
+      category="$category X-BlackArch-Decompiler;"
       ;;
     blackarch-defensive)
-      category="${category} X-BlackArch-Defensive;"
+      category="$category X-BlackArch-Defensive;"
       ;;
     blackarch-disassembler)
-      category="${category} X-BlackArch-Disassembler;"
+      category="$category X-BlackArch-Disassembler;"
       ;;
     blackarch-dos)
-      category="${category} X-BlackArch-Dos;"
+      category="$category X-BlackArch-Dos;"
       ;;
     blackarch-drone)
-      category="${category} X-BlackArch-Drone;"
+      category="$category X-BlackArch-Drone;"
       ;;
     blackarch-exploitation)
-      category="${category} X-BlackArch-Exploitation;"
+      category="$category X-BlackArch-Exploitation;"
       ;;
     blackarch-fingerprint)
-      category="${category} X-BlackArch-Fingerprint;"
+      category="$category X-BlackArch-Fingerprint;"
       ;;
     blackarch-firmware)
-      category="${category} X-BlackArch-Firmware;"
+      category="$category X-BlackArch-Firmware;"
       ;;
     blackarch-fuzzer)
-      category="${category} X-BlackArch-Fuzzer;"
+      category="$category X-BlackArch-Fuzzer;"
       ;;
     blackarch-forensic)
-      category="${category} X-BlackArch-Forensic;"
+      category="$category X-BlackArch-Forensic;"
       ;;
     blackarch-gpu)
-      category="${category} X-BlackArch-Gpu;"
+      category="$category X-BlackArch-Gpu;"
       ;;
     blackarch-hardware)
-      category="${category} X-BlackArch-Hardware;"
+      category="$category X-BlackArch-Hardware;"
       ;;
     blackarch-honeypot)
-      category="${category} X-BlackArch-Honeypot;"
+      category="$category X-BlackArch-Honeypot;"
       ;;
     blackarch-ids)
-      category="${category} X-BlackArch-Ids;"
+      category="$category X-BlackArch-Ids;"
       ;;
     blackarch-keylogger)
-      category="${category} X-BlackArch-Keylogger;"
+      category="$category X-BlackArch-Keylogger;"
       ;;
     blackarch-malware)
-      category="${category} X-BlackArch-Malware;"
+      category="$category X-BlackArch-Malware;"
       ;;
     blackarch-misc)
-      category="${category} X-BlackArch-Misc;"
+      category="$category X-BlackArch-Misc;"
       ;;
     blackarch-mobile)
-      category="${category} X-BlackArch-Mobile;"
+      category="$category X-BlackArch-Mobile;"
       ;;
     blackarch-mobile-reversing)
-      category="${category} X-BlackArch-Mobile-Reversing;"
+      category="$category X-BlackArch-Mobile-Reversing;"
       ;;
     blackarch-networking)
-      category="${category} X-BlackArch-Networking;"
+      category="$category X-BlackArch-Networking;"
       ;;
     blackarch-nfc)
-      category="${category} X-BlackArch-Nfc;"
+      category="$category X-BlackArch-Nfc;"
       ;;
     blackarch-packer)
-      category="${category} X-BlackArch-Packer;"
+      category="$category X-BlackArch-Packer;"
       ;;
     blackarch-proxy)
-      category="${category} X-BlackArch-Proxy;"
+      category="$category X-BlackArch-Proxy;"
       ;;
     blackarch-radio)
-      category="${category} X-BlackArch-Radio;"
+      category="$category X-BlackArch-Radio;"
       ;;
     blackarch-recon)
-      category="${category} X-BlackArch-Recon;"
+      category="$category X-BlackArch-Recon;"
       ;;
     blackarch-reversing)
-      category="${category} X-BlackArch-Reversing;"
+      category="$category X-BlackArch-Reversing;"
       ;;
     blackarch-scan)
-      category="${category} X-BlackArch-Scan;"
+      category="$category X-BlackArch-Scan;"
       ;;
     blackarch-scanner)
-      category="${category} X-BlackArch-Scanner;"
+      category="$category X-BlackArch-Scanner;"
       ;;
     blackarch-sniffer)
-      category="${category} X-BlackArch-Sniffer;"
+      category="$category X-BlackArch-Sniffer;"
       ;;
     blackarch-social)
-      category="${category} X-BlackArch-Social;"
+      category="$category X-BlackArch-Social;"
       ;;
     blackarch-spoof)
-      category="${category} X-BlackArch-Spoof;"
+      category="$category X-BlackArch-Spoof;"
       ;;
     blackarch-stego)
-      category="${category} X-BlackArch-Stego;"
+      category="$category X-BlackArch-Stego;"
       ;;
     blackarch-tunnel)
-      category="${category} X-BlackArch-Tunnel;"
+      category="$category X-BlackArch-Tunnel;"
       ;;
     blackarch-unpacker)
-      category="${category} X-BlackArch-Unpacker;"
+      category="$category X-BlackArch-Unpacker;"
       ;;
     blackarch-voip)
-      category="${category} X-BlackArch-Voip;"
+      category="$category X-BlackArch-Voip;"
       ;;
     blackarch-webapp)
-      category="${category} X-BlackArch-Webapp;"
+      category="$category X-BlackArch-Webapp;"
       ;;
     blackarch-windows)
-      category="${category} X-BlackArch-Windows;"
+      category="$category X-BlackArch-Windows;"
       ;;
     blackarch-wireless)
-      category="${category} X-BlackArch-Wireless;"
+      category="$category X-BlackArch-Wireless;"
       ;;
     esac
   done
@@ -172,16 +172,20 @@ get_desc() {
 
 gen() {
   for package in "${packages[@]}"; do
-    pkginfo=$(pacman -Qi "${package}")
+    pkginfo=$(pacman -Si "blackarch/$package")
     package=$(echo "$pkginfo" | grep Name | cut -d':' -f 2 | sed 's/^ //g')
     desc=$(echo "$pkginfo" | grep Description | cut -d':' -f 2 | sed 's/^ //g')
     groups=$(get_groups "$pkginfo")
 
-    if [[ ! ${groups[@]} ]]; then
+    if [[ -f "/usr/share/applications/$package.desktop" ]]; then
       continue
     fi
 
-    cat >"/usr/share/applications/ba-${package}.desktop" <<EOF
+    if [[ ! $groups ]]; then
+      continue
+    fi
+
+    cat >"/usr/share/applications/ba-$package.desktop" <<EOF
 [Desktop Entry]
 Name=$package
 Icon=utilities-terminal
@@ -199,8 +203,8 @@ EOF
 
 rem() {
   for package in "${packages[@]}"; do
-    if [[ -f "/usr/share/applications/ba-${package}.desktop" ]]; then
-      rm -f "/usr/share/applications/ba-${package}.desktop"
+    if [[ -f "/usr/share/applications/ba-$package.desktop" ]]; then
+      rm -f "/usr/share/applications/ba-$package.desktop"
     fi
   done
 }
