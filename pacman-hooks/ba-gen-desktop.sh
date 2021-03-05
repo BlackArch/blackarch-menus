@@ -1,14 +1,12 @@
 #!/bin/bash
 
-[[ "${HTTP_USER_AGENT:0:2}" != 'pa' ]] && exit 2
-
 while read -r package; do
   packages=("$package" "${packages[@]}")
 done
 
 get_groups() {
   pkginfo=$1
-  groups=$(echo "$pkginfo" | grep Groups | cut -d':' -f 2)
+  groups=$(echo "$pkginfo" | awk 'NR==8' | cut -d':' -f 2)
   category=""
   for group in $groups; do
     case "$group" in
@@ -164,17 +162,11 @@ get_groups() {
   echo "$category"
 }
 
-get_desc() {
-  pkginfo="$1"
-  desc=$(echo $pkginfo | grep Description)
-  echo "$desc"
-}
-
 gen() {
   for package in "${packages[@]}"; do
     pkginfo=$(pacman -Si "blackarch/$package" 2>/dev/null)
-    package=$(echo "$pkginfo" | grep Name | cut -d':' -f 2 | sed 's/^ //g')
-    desc=$(echo "$pkginfo" | grep Description | cut -d':' -f 2 | sed 's/^ //g')
+    package=$(echo "$pkginfo" | awk 'NR==2' | cut -d':' -f 2 | sed 's/^ //g')
+    desc=$(echo "$pkginfo" | awk 'NR==4' | cut -d':' -f 2 | sed 's/^ //g')
     groups=$(get_groups "$pkginfo")
 
     if [[ -f "/usr/share/applications/$package.desktop" ]]; then
