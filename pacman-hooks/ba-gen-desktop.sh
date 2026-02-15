@@ -16,6 +16,9 @@ get_groups() {
     blackarch-automation)
       category="$category X-BlackArch-Automation;"
       ;;
+    blackarch-ai)
+      category="$category X-BlackArch-AI;"
+      ;;
     blackarch-automobile)
       category="$category X-BlackArch-Automobile;"
       ;;

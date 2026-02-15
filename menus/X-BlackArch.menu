@@ -10,6 +10,13 @@
             <Category>X-BlackArch</Category>
         </Include>
         <Menu>
+            <Name>AI</Name>
+            <Directory>BlackArch-AI.directory</Directory>
+            <Include>
+                <Category>X-BlackArch-AI</Category>
+            </Include>
+        </Menu>
+        <Menu>
             <Name>Anti-Forensic</Name>
             <Directory>BlackArch-Anti-Forensic.directory</Directory>
             <Include>
@@ -21,13 +28,6 @@
             <Directory>BlackArch-Automation.directory</Directory>
             <Include>
                 <Category>X-BlackArch-Automation</Category>
-            </Include>
-        </Menu>
-        <Menu>
-            <Name>AI</Name>
-            <Directory>BlackArch-AI.directory</Directory>
-            <Include>
-                <Category>X-BlackArch-AI</Category>
             </Include>
         </Menu>
         <Menu>
