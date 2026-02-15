@@ -5,7 +5,7 @@ BlackArch specific XDG-compliant menu.
 ## Categories
 
 This package includes the following BlackArch tool categories:
-- Anti-Forensic, Automation, **AI**, Automobile, Backdoor
+- Anti-Forensic, Automation, AI, Automobile, Backdoor
 - Binary, Bluetooth, Code-Audit, Cracker
 - Crypto, Database, Debugger, Decompiler
 - Defensive, Disassembler, Dos, Drone
