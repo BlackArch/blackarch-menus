@@ -24,6 +24,13 @@
             </Include>
         </Menu>
         <Menu>
+            <Name>AI</Name>
+            <Directory>BlackArch-AI.directory</Directory>
+            <Include>
+                <Category>X-BlackArch-AI</Category>
+            </Include>
+        </Menu>
+        <Menu>
             <Name>Automobile</Name>
             <Directory>BlackArch-Automobile.directory</Directory>
             <Include>
